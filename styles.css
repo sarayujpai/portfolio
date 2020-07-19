@@ -28,3 +28,56 @@ body {
 .navbar button.navbar-toggler {
   color: #fff !important;
 }
+header {
+  max-height: 500px;
+  background-color: #1abc9c!important;
+}
+.main-image {
+  width: 15rem;
+}
+.top-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+}
+.custom-divider-light  {
+ color: #fff !important;
+}
+.divider-line hr {
+   border: none;
+   height: 4px;
+   background: white;
+   vertical-align: center;
+   width: 100%;
+ }
+.custom-divider-light .star img {
+  width: 25px;
+  height: 25px;
+  vertical-align: center;
+}
+
+.bottom-text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+#portfolio .header {
+  color:#2C3F51 !important;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+  }
+}
