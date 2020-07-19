@@ -76,6 +76,18 @@ header {
     margin-left: -1.5rem;
 }
 
+#about {
+  background-color: #1abc9c!important;
+}
+#about .header {
+  color: #fff !important;
+  font-size: 2rem;
+  font-weight: 600;
+}
+#about p {
+  color: #fff !important;
+}
+
 @media (min-width: 1200px)
 .container {
     max-width: 1140px;
