@@ -21,6 +21,9 @@ body {
 .navbar .navbar-nav li.nav-item a.nav-link {
     color: #fff;
 }
+.navbar .navbar-nav li.nav-item a.nav-link:hover,  .navbar .navbar-nav li.nav-item a.nav-link:active {
+        color: #1abc9c;
+}
 
 .navbar .navbar-brand {
   color: #fff;
@@ -88,6 +91,50 @@ header {
   color: #fff !important;
 }
 
+.part2 {
+  background-color: #1abc9c!important;
+}
+
+#contact .header {
+  color:#2C3F51 !important;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#contact .phone-img {
+  width: 94px;
+  height: 90px;
+}
+
+#contact a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+#contact a:hover {
+    color: #117964;
+    text-decoration: underline;
+}
+
+.last {
+  background-color: #2C3F51;
+}
+.last .header {
+  color:#fff !important;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    background-color: #1a252f;
+}
 @media (min-width: 1200px)
 .container {
     max-width: 1140px;
